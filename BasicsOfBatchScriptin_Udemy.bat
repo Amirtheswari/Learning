@@ -1,5 +1,6 @@
 @echo off
 
+REM Echo is like print statement.
 ECHO HELLO WORLD
 echo "hello"
 echo 12345
@@ -144,4 +145,5 @@ if %errorlevel% neq 0 (
 
 REM LOG file
 ver >> batchscript1.txt
+
 dir >> batchscript1.txt
