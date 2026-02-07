@@ -6,6 +6,7 @@ echo "hello"
 echo 12345
 echo hello 12345
 
+REM vol is used to display the details of current drive
 vol
 
 ver
@@ -147,3 +148,4 @@ REM LOG file
 ver >> batchscript1.txt
 
 dir >> batchscript1.txt
+
